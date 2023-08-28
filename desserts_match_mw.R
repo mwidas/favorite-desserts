@@ -22,3 +22,5 @@ dessert_ms <- read_csv(here("data", "favorite_desserts,ms.csv")) %>%
   rename(dessert = Favorite_dessert)
 
 semi_join(dessert_listing, dessert_ms)
+
+#thank god this shit finally FUCKING worked
